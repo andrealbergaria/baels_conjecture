@@ -1,0 +1,17 @@
+Olá André,
+
+A conjectura de Beal diz que:
+para o tuplo (A,B,C,x,y,z) que satisfaça
+      1. A^x+B^y=C^z
+      2. A,B,C,x,y,z inteiro positivos
+      3. x,y,z > 2
+então, A,B,C tem um factor primo em comum.
+
+E, portanto, é preciso mostrar esta implicação para todo o tuplo (A,B,C,x,y,z) que satisfaça as 3 condições.
+
+O que o André mostrou é que para x=y=z=3 e C=3 não existe um tuplo par (A,B) que satisfaça a primeira condição. E se não satisfaz a primeira condição nem sequer precisamos de verificar o consequente da implicação que é a conjectura de Beal.
+
+Mas há-que continuar a tentar ;)
+Bom trabalho!
+
+p.engracia@gmail.com

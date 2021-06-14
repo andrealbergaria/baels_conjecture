@@ -1,0 +1,286 @@
+
+
+Dipohantive equation
+ A Diophantine equation is an equation in which only integer solutions are allowed. 
+
+
+If A^x + B^y = C^z , where A, B, C, x, y and z are positive integers and x, y and z are all greater than 2, then A, B and C must have a common prime factor.
+
+
+---terceira questao (A primo e B nao primo, ou inverso)-----------------
+    Se A divide B , então B tem factor primo comum ou inverso
+---------------------------------------------------------------    
+ 
+    PrimoA + X = PrimoB   => dois primos diferentes (PrimoB, PrimoA), nao tem factores primos comuns
+    
+    
+Factores de (A^3) = {3,9,27}
+Factores de (B^3) = {2,4,8}
+
+     1)   Para A^x , Se A primo, então A^x tem um unico factor primo (por exemplo A^3 = {3,9,27} e o                unico primo é 3.
+     2)   Para A^x , Se A não primo, então tem como factores primo, todos os factores primos que compoem 
+     
+        
+     
+     --------------------------------------------------------------
+    Se tem factores comuns primos, pode nao ter factor comum nao primo
+    -----------------------------
+    
+    -------------------multiplos de 7--------------------------
+    7/7 14/7 21/7 28/7   => numerador multiplo de 7
+    
+     Se o divisor for primo, o numerador tem de ser primo*k, para k inteiro (visto ser uma divisão inteira) 
+     
+     Para haver factor comum entre numerador (nao primo) e denominador (primo 7). 
+     Factor comum = 7
+     
+         7=7k , 7 nao divide mais ninguem 
+         e se 14 dividir alguem então 7 tambem divide (visto que 7*2 = 14)
+     
+        7 não divide outros numeros a nao ser numeros na forma 7k
+        
+     
+     
+        naoPrimo = 2*3*5
+                30 multiple of 2 ,
+                30 multiple of 3,
+                30 multiple of 5
+        
+        naoPrimo = 2*5*7
+                 = 70 multiple of 2
+                   70 multiple of 5
+                   70 multiple of 7
+            
+            pode um primo ser multiplo ?
+            não porque 7 só é divisivel por ele mesmo
+              7 = mk
+        
+            Para dois nao primos (30 e 70)
+            Se os dois (30, e 70) forem multiplos de primoA, então tem factor comum, caso contrario nao
+                
+                
+                
+                
+                30 = 2k  => factor comum (30,70) factor => 2
+                70 = 2k
+                
+                7k = 70
+                7k = 30 ==> 7 não é factor comum
+                
+                
+                Se k não é inteiro, nao tem factor comum primo
+                
+                Se k é inteiro , tem factor comum = 7 (neste caso 7, visto que o unico factor de 7 é 7,logo não pode ter mais factores comuns)
+                
+                primo * k = nao primo
+                
+                
+                
+                
+        7 primo, e 32 nao primo , se 32 contem 7 ? 
+        
+        
+        o unico factor comum possível é 7
+        
+        32 dividido por qualquer numero nao pode ser 7
+        
+        
+        
+    
+    ANaoPrimo BNaoPrimo = 
+    
+                                                 
+    
+                            Se BNaoPrimo / ANaoPRimo é divisão inteira, ha factores primoso comuns
+                            (numerador divisivel por denominador)
+                
+                            
+                            
+                            Se BNaoPrimo / ANaoPrimo não é inteira, pode haver factores comuns ou não
+                            
+                            2*3 / 7*5*2   factor comum = primo (2) 
+                            
+                            3*11 / 7*5    factor comum = {}
+                            
+                            
+                            
+                            se factor divide ambos os membros, então existe factor comum
+                            
+                            
+                            
+                            
+                            
+                            NaoPrimoT = primo2*primo5*primo3
+                            NaoPrimoT2 = primo2*primo3*primp2
+                            
+                                NaoPrimoT                       5
+                            k = --------------------    k=  -----------
+                            
+                            NaoPrimoT2                      2                
+                            
+                            O numerador ou o denomiandor forem primos, então divisão nunca é inteira
+                            
+                            2*7 / 3    denominador Primo  = {1,3}, o que acontece a divisão
+                            
+                            numerador primo = nao tem divisores
+                            denominador primo 3 
+                            numerador > 3 , 4/3 5/3 6/3
+                            
+                            
+                            
+                            
+                            denomiandores primos ou nao primos, tem de ser menor que numerador
+                                
+                                numerador nao primo = 2*5 => denominador nunca é primo
+                                
+                                possiveis denominadores = {1,2,3,4,5,6,7,8,9}
+                                possiveis denominadores nao primos {4,6,8,9}
+                                possiveis denominadores primos = {1,2,3,5,7}
+                                
+                                
+                                
+                                
+                                
+                                
+                            o denominador tem de desaparecer,sendo os factores do denominador os factores comuns
+                            
+                            se os numeros do denominador dividirem  o numerador, então o resultado é inteiro e há factores comuns
+                            ou seja se a divisão for inteira, ha factores comuns
+                            
+                            
+                            
+                            10/2
+                            12/4
+                            
+                            Se dividir por um primo,
+                            
+                            
+                            divisao inteira => numerador = denominador
+                            
+                            se denominador > numerador não inteira
+                            
+                            
+                          
+                            
+                            4/2*3 6/3 8/4 10/2
+                            tem factores comuns
+                            
+                            Para BNaoPrimo / ANaoPrimo ser inteiro, então tem factores primos comuns
+                            primo1 * primo2
+                            primo2 * primo1 
+                            
+                            
+                            4/6 2*2 / 2*3 factor comum = 2 resultado = 2/3
+                            6/4 2*3 / 2*2  factor comum = 2 resultado = 3/2 => divisão nao inteira
+                            
+                            Para a divisão ser inteira, tem de existir um factor comum
+                            4/6
+                            
+                            Se divisão for inteira, 9/4 , ou 4/2, ou 
+                            factor comum 2
+                            
+                            
+                            6/9 9/6
+                            
+                            elimina todos os factores primos comuns e BN = primo5 AN = primo3 não tem primos comuns 
+                   
+                     
+       
+       
+
+
+
+-------------------
+---Todos os possiveis casos para a e b (testar primalidade)-------------
+
+Para a nao primo e b primo
+    se b compuser a, então o factor primo comum é b , caso contrario nao existe
+    a nao primo nao pode dividr primo (primos nao sao divisiveis)
+    
+Para a nao primo e b nao primo
+    se a divide b, entao b tem um primo com valor a, logo tem factore comuns
+    se b divide a então existe um primo comum igual a b
+    
+     -------dividir ambos A e B por primo------------
+    Se ambos (A e B ) forem divididos pelo mesmo primo, então esse primo é comum aos dois
+    ---------------------------------------------------------
+a) Para haver gcd > 1 , se um elemento for even , entao X tem de ser even
+gcd(even,even) = 2 , tem factores comuns
+gcd(even,odd) = gcd(odd,even) = 1. Nao tem divisores ou factores comuns
+gcd(odd1,odd2) =  Nao existe
+
+odd1 = 3 odd2 =5
+odd1 = 3 odd2 = 7
+odd1 = 3 odd2 = 11
+
+Como se ve é impossivel
+
+ ----------Tentando obter gdc e usar a formar a+b=c-----------------------
+ 
+ A= 12  B= 42 GCD(12,42) = 6   12*p + 42*q = gcd(a,b)=6
+ 
+ 12p+42q = 1 (A e B nao tem primos comuns)
+
+
+ 
+ gcd(12p,42q) = 1
+ 
+ 12p e 42q tem factor primo comum (gcd(a,b) =  6)
+ -------------------------------------------------------
+
+ Bézout's_identity
+        
+    a = de b = df
+    de + df = cd
+    
+    gcd(a, b), where a and b are not both zero, may be defined alternatively and equivalently as the smallest positive integer d which can be written in the form d = a⋅p + b⋅q, where p and q are integers. This 
+    
+    ---caso geral
+    PrimeK1 + PrimeK2 = PrimeK3
+    
+    ---so preciso demonstrar que primoK1 e primeK2 tem um factor primo comum, visto que a soma, vai
+    ter um factor comum se ambos (PrimoK1 e PrimoK2)  tiverem---------------------
+    PrimeK1 nao pode ter factores comuns com PrimeK2, pois são primos
+    ----
+    Se provar que  12p e 42q tem factor primo comum (gcd(a,b) =  6)
+    então a+b = c , c tem 6 como factor? sim (abaixo)
+    
+	12+42 = 54
+	6(2) + 6(7) = 6(9)
+	 
+ 
+ 
+ ---------Goldbach Conjecture---------------------
+ ----The Goldbach Conjecture is a yet unproven conjecture stating that every even integer greater than two is the sum of two prime numbers. ---------
+ 
+ if cgd of two numbers is different from 1 then they share a common factor
+-------------------common factor must be 2?-------------------
+
+4 = 2+2
+6 = 3+3
+8 = 3+5
+
+sum of two prime numbers
+8= A=3 B= 5,cgd(3,5)=1 2k = 3 +5
+
+-------------------rules from project------
+ For A = B => all even
+ For A != B , C^z  odd? true
+ 
+ 
+ o for considering any of A,B,C equal, the only possibility is A^x = B ^y, that is 2 * A^X or 2* B^y, hence C^y / S2 , and C^y is even.
+ using logic we can deduce that A!= B => C^Z odd
+ 
+ ----ParityRules
+ ----------regras paridade----------
+even+even = even
+ even+odd = odd
+ odd+even= odd
+ odd+odd =  even
+ 
+ multiplying 
+ even*even =even
+ even*odd = even
+ Odd*even=even
+ odd*odd = odd
+ 

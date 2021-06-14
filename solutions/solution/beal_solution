@@ -1,0 +1,47 @@
+﻿						Answer to Beal's Conjecture
+
+
+	
+If A^x + B^y = C^z , where A, B, C, x, y and z are positive integers and x, y and z are all greater than 2, then A, B and C must have a common prime factor.
+
+Since A^x will have the same primes factor as A, we only consider A
+
+If A , B and C are equal its impossible, because A+B = C cant be equal to C
+
+If there is a prime on the equation then
+    
+    a) PrimeA + NonPrimeB = C
+    
+    The only possible common prime factor in a) is PrimeA (since it only has one factor)
+    So C doesnt have PrimeA as possible common prime factor
+    
+    b) PrimeA + PrimeB = C
+    two different primes , C cant be equal to either PrimeA or PrimeB (since its a sum), and hence can't share a prime common factor 
+    
+    c) Prime A + NonPrimeB = PrimeC
+        two different primes (because is PrimeA + something, so they are different)
+     
+    d) NonPrimeA + NonePrimeB = PrimeC
+    PrimeC can't be decomposed in sum of two non primes
+    
+    So, A,B,C must be NonPrimes (to have a common prime factor)
+    
+    Hipothese
+    
+    NonPrime1 + NonPrime2  = NonPrime3
+    
+    
+    1) If NonPrime1 e NonPrime2 have common prime factors then NonPrime3 also has common prime factors
+    
+    
+ 	If we did have a common factor, in this case 3, then that could be put in evidence as in:
+		2*3 + 3*7 = 27
+		3(2+7) = 27 
+    	and its assured that 3 divides 27,so 3 is a prime common number
+   
+   2) If they don't have common prime factors, then they don't share a common prime
+
+Therefore A^x + B^y  = C^z , doesnt hold, for example if A is prime. 
+
+Author :
+	Andre Albergaria Coelho

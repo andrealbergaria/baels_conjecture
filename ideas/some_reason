@@ -1,0 +1,1193 @@
+
+
+    If A divides B , then  B has a prime factor or the inverse
+    
+    If a non prime is factor of other number, the primes that form that number are factors of the number
+    
+    The multiplication of primes is not prime
+
+    Any number elevated to a exponent, has the same prime divisors of number and number elavated to exponent.
+   So in this case , we can treat A^x+B^y=c^z, we can treat A, B and C as not having exponents
+    
+	If A divisible by same number as B, it has common factor (prime and no prime)
+
+	If two numbers have a common factor, they also have a common prime factor
+
+	Every rule that applies to non primes, also applies to primes (since primes compose non primes)
+	So for example:
+		4 is divisble by 2 => 2 is divisible by 2
+
+    ----------------------propriedades de divisores para B e A -----------------
+    
+    https://en.wikipedia.org/wiki/Divisor
+    Se A e B forem primos
+    
+    A | BC -->  gcd(A,B)= 1 , ou seja A e B são primos
+    => tentando provar   = A | C 
+    
+    Se A | B*C ,A e B nao tem factores comuns 3 | 2 * C
+    
+    3 / (2*C)    
+    
+    Se A = BK e  B= AK  ===> a=b ou a=-b
+    
+--------------------------------------------    
+    
+
+a= de , b = df
+de+df=dg
+
+------- lcm nao pode ser primo-------------------
+
+for least common multiples, a and b can't be primes.
+for example:
+	lcm(2,3)= x/2 and x/3 (not equal no lcm)
+a or b, can't be prime.
+
+
+lcm (a,b ) x / a e x / b => implica que lcm nao pode ser primo
+for a,b primes
+
+	x / 2 x / 3 
+
+	x /  x / 8
+
+	
+
+
+--greateast common factor gfc---
+if gcf 1 then no common prime number
+
+two primes:
+
+3,5 (no divisor, two primes have no divisor) gcf = 1
+
+one prime, another non prime ()
+3,8 if non prime even, 3 nao pode ser dividido
+                       8 pode
+                       
+                       logo se tivermos um prime, nao existe , se 3 divide 8 então temos comum
+                       caso contrario nao
+
+        
+----------o menor primo que divide os dois numeros , é outra operação
+
+----se ambos os numeros são primos, não existe gcf, visto nao serem divididos por nenhum numero ------------
+
+----se um numero é primo e o outro não ----se o primo dividir o outro, o gcf é o = primo, senao dividir entaõ gcf nao existe-----------------------------
+
+
+-------if gcf = 1 no common prime number-----
+
+
+
+-------a+b tem factores comuns com a e b?---------------------
+
+
+----Se a e B tiverem primos comuns, tambem os Nao Primos tem em comum--------
+
+----------Se a e b nao tiverem primos comuns, c nao pode ter factor comum com os dois , pode possivelmente ter um factor comum com um deles
+
+        a = 2*5 b=3*7  = ou c (2 comum a a) ou c (3 comum a b)
+        a+b = 31
+        31 tem comum com a ou b ? 31 é primo
+        
+        Para
+        a=2*3 b = 2*7
+        ambos são divisiveis por 2, logo a+b = c .C  2 é divisor de C,logo tem primo comum com a,b
+        
+        (2* 3) / 2 + (2*7) / 2  => 3+7=10
+        (2*3+2*7) / 2 = 10 
+        
+----------Se a e b nao tiverem primos comuns, c nao pode ter factor comum com os dois (ou tem com a ou tem com b , visto serem diferentes)
+
+----se a e b tiverem primos comuns, c tem factores comum com os dois -----------
+    se tiverem primos comuns, 
+    a / 3 , b /3
+    Para terem primos comuns, a e b não podem ser primos
+
+    Nao Primo A tem factores primos
+    Nao Primo B tem factores primos
+    
+    
+---para o caso de c = a + b 
+
+
+f(x) = a + b
+dom(a) = {1,3,2} dom(b) = {2,5,7}
+
+dominio(A) = primos
+dominio(B) = primos
+
+Pode ser que dominio(A) seja nao_primos? sim, mas tambem pode ser por primos. Assim A e B 
+Qualquer que seja o dominio de uma variavel, o dominio é sempre o produto de primos (pode-se ignorar os nao primos)
+
+primos subset of numeros, 
+
+
+Factores de 231
+a){1, 3, 7, 11, 21, 33, 77, 231}
+
+Factores de 30
+b){1, 2, 3, 5, 6, 10, 15, 30}
+
+Factores de 261 
+c) { 1, 3, 9, 29, 87, 261 }
+
+factor comum de 231, 30 é tambem o factor comum de a+b (261)? Sim correcto
+    
+    divide a , divide b, divide c => para ter factores comuns, neste caso se a e b tem factores comuns
+    a soma tem factor comum
+     
+    
+    factorse comuns {231,30,261} = {3}
+    
+    231 / 3 , 30 / 3 , logo 3 é factor comum da soma (231+30)/3
+        
+        ---optimizações------    
+se gcd (a,b) = 1 , então parar (nao tem primos comuns)
+
+       ----------------------
+
+       ---------------multiple =  sum of two numbers with the same common prime-----------------
+       
+        3*7*5 + 2*3 = 3 k ,    onde 3 é o ftacor comum entre  A e B
+
+---------------------------------------------------------
+
+---Todos os possiveis casos para a e b (testar primalidade)-------------
+------Prime rules-----------
+Para a primo e b primo (nao é possivel terem factores primos comuns, a nao ser que sejam iguais)
+    
+
+Para a nao primo e b primo
+    se b compuser a, então o factor primo comum é b , caso contrario nao existe
+    a nao primo nao pode dividr primo (primos nao sao divisiveis)
+    
+Para a nao primo e b nao primo
+    se a divide b, entao b tem um primo com valor a, logo tem factore comuns
+    se b divide a então existe um primo comum igual a b
+    
+    --------------------------------------------------------------
+    
+    
+    --------------another prime rules------
+    
+    
+    
+    ----------------------------------------
+    Union T = {1,3,5,7,11}
+    
+    A + B               
+{1,3,7}  {1,5,11}
+
+3*7 + 5*11
+
+domino = primos
+contradominio = nao primos = primos
+    
+    3+5 = 8
+   14 + 3 = 17
+   
+    3*7*2 + 5*7
+
+3*7 + 5*11 = 21+55 = 76 { 2,2,19}    
+-----------Soma de 2 numeros primos não iguais não tem divisor comum.
+    a+b =  c , é divisvel
+    
+    3+5 = 3 e 5  nao tem divisor comum ,logo nao tem factores primos comuns (então 
+    
+    
+    ----------Se a e b forem primos , nao tem factores comuns, logo  c nao pode ter factor comum com os dois , pode possivelmente ter um factor comum com um deles
+
+    3+5 = 8 ....8 não tem factor comum com os dois, então 
+    
+    Pode ter com algum mas são diferentes
+    
+    factores 3  = {1,3}
+    factores 8 = {1,2,4}
+    
+    factores 5= {1,5}
+    
+    3+5 = 8
+    
+    factores 2= {1,2}
+    factores 5= {1,5}
+
+    2+5 = 7
+    
+    A soma de dois primos, pode ser primo ou nao (3+5 = 8, 2+5=7)
+    
+    Visto a e b serem primos, 
+    c = nao tem factor comum com a+b (se a e b forem primos), actor comum de 3 é 3 (visto ser primo, unico factor, logo qualquer soma,tera outro factor)
+    c divisible por a ?
+    a divisible por 3 (a=3 , primo,unico divisor)
+    c divisible por 3 ? c=a, se a primo (neste caso 3)
+    c não é divisivel por a
+    
+    3+5 = 8 (8 não é igual a 3,logo 8 não é divisivel por 3)
+    
+    
+    2+5 = 7
+    
+    quero arranjar um a, que divida c
+    
+    a + 5 = x/a => a primo
+                   (x/a) x composto (visto que tem mais do que dois divisores 
+                   
+                   se x composto , quais os numeros em que o divisor é a
+                   visto que a é primo.
+                   
+                   a divide x, 
+                   então x contem a obrigatoriamente
+                   
+                   x= {1,a,x} ? 
+                   
+                   a=2
+                   2*3*3*3*7
+                   
+                   contem mais numeros?
+                   x= {1,a=2,3,7}
+                   
+                   se x primo, nao pode ter divisores diferentes de x, logo a!= x
+                   
+    x=a
+    então x!=a
+    
+    a+5 = a (impossivel) (visto que a primo é divisivel por ele mesmo, c apenas pode ser dividido por c (visto que c primo) ,ou seja se A=C correcto , caso 
+    contrario
+    
+    Para a primo . divisivel por a
+    
+    Para c primo . divisivel por c
+    
+    Para a=c é verdade (nao pode acontecer pois 3+5 = 8..A!=C
+    assim A!=C nao tem factores comuns (2 numero primos diferentes)
+    
+    
+    
+    a+5 = c
+    
+    
+    
+    
+    factor comuns {1,3}
+    
+    8 não pode ter factor primo comum com 3 e 5
+    
+--------propriedadse gcf----------------
+commutative
+gfc(a,b) = gcf(b,a)
+
+associative
+gcd(a, gcd(b, c)) = gcd(gcd(a, b), c). Thus gcd(a, b, c, ...) 
+
+
+
+gcd(a,b) = gcd(b,a)
+
+
+--------Usar gcd para calcular primos----------------
+gcd(a,b) = 1
+gcd(a,c) = 1
+gdc(b,c) = 1
+
+associative
+gcd(a, gcd(b, c)) = gcd(gcd(a, b), c). Thus gcd(a, b, c, ...) 
+
+    gcb(a,1) = gcd (gcd(1,c))
+    gcb(a,1) = gcd(1)
+    1=1
+    
+------------Para numeros primos (gcd = 1 ,lcm)
+
+Para gcd = 1 (numeros primos)
+gcd(a,b) * lcm(a,b) = | a* b |
+lcm(a,b) = | a* b| 
+
+------------divisao = a  / b equals b/a-----------------
+(b,a) o divisor é igual a (a,b)
+
+(a, b) and (b, c) have the same common divisors (a/b, e c/b) , and thus gcd(a,b) = gcd(b,c)
+test for parity
+
+Para terem cgd != 1
+    cgd(a,b) = cgd(b,a)
+    ou a/b ou b/a (ambos os casos são possíveis, visto que (a,b) = (b,a) (ou b divide a ou a divide b) a/b = b/a
+            A=4 b=2     A=2 B=4
+    Exemplo cgd(4,2) = cgd(2,4)
+             4/2           2/4
+            
+             
+----------------------------------------             
+    ----
+          
+             ---------- Um não primo é factorizado pelos numeros primos que são seus factores
+ por ex 30 = {1, 2, 3, 5, 6, 10, 15, 30]}
+ primos = {2,3,5}.  Factorização = 2*3*5 = 30   
+        
+        
+        -------
+    
+    
+ ---sums , subtratatins and multiplying..parity----------
+ even+even = even
+ even+odd = odd
+ odd+even= odd
+ odd+odd =  even
+ 
+ multiplying 
+ even*even =even
+ even*odd = even
+ Odd*even=even
+ odd*odd = odd
+ 
+ gcd (even,X) = at least 2 . even / X
+
+ even= 2*2*2*2*2*2                              
+
+ a) Para haver gdc , se um elemento for even , entao X tem de ser even
+ 
+ (even / X) / 2 is equal to (even/2) / X 
+ 
+ gcd(even,X ) =X é even por a)
+ gcd(X,even) = gcd(even,X)
+ 
+          Para gcd(even,x) = 2, x divide even e even divide x
+          posi gcd(x,even) = gdc(even,x)
+                2*2
+---- =>        ----     => ambos numerador e denomiandor se dividem,                                                                    visto                   visto que tem ambos gcd e gdc(a,b) = gdc(b,a)
+ x             2*2*2    => 4 / 8 = 2/4
+ 
+    2*2*2*2
+    ---------- 
+    2*2             (x é 2*2 porque o cgd dum numero par é par,seja 
+                    numerador ou denominador)
+    -----           (
+        2
+ 
+ divisão = 2*2 / (2*2*2*2) / 2 => 1/4 (dividir por 2 um numero, igual a dividir ambos o numerador e denominador por 2)
+ 
+ dividir ambos por 2
+b)   2*2                      2*2 /2              2          1
+    -----   is equal ? to      -------         ------     ==> ---
+    2*2*2*2                  2*2*2*2 /2        8            4
+    ------
+    2
+ 
+            2                   1
+reduzir b (elimanr um dois do numerador) ----        ==>>>  ------
+            2
+        -------------        = 1/8
+           2*2*2*2            
+ 
+ dividir  (2*2*2*2 por 2 ) = 2*2      
+                             -------  => 1 /2
+                             2*2*2
+ 
+    Não são iguais!
+    
+----------Parity , are odd primes??--------------------
+
+    a) Para haver gdc > 1 , se um elemento for even , entao X tem de ser even
+gdc(even,even) = 2
+gdc(even,odd) = 1  = gdc(odd,even) = nao tem gdc > 1
+gdc(odd,odd) = 
+    
+    can even / odd = ? yes 
+    odd / even = no não é divisivel por 6,4,2 visto que odd = numeros não divisiveis por 2
+    
+    odd1 e odd2  são primos?
+
+    não podem ser divididos por 2,4,6,8 = 2k
+
+    se odd1 primo, então naõ pode ser dividido por 2,4,6,8....
+    se odd1 primo , odd1 / odd1 ou odd1 / 1
+    
+    Provar que odd1 é primo)
+        se odd1 for não primo, 3*3
+                               3*7*5
+                               não pode ser divisivel por 2, 
+    
+    3 / x , x= [5,7,11] neste caso (3/x) , nao obitnhamos um numero inteiro
+    5 /x  , x= [3,7,11] também não obtinhamos um numero inteiro
+    Portanto odd são primos
+    
+    gdc(even,odd) = 
+odd não pode ser dividido por even (visto ser primo)
+even pode ser dividido por odd ?? não visto que odd não é divisivel por 2
+e even só é divisivel 2,4,6,8 (2k)
+    
+    
+    ------------------------------------    
+    
+ ----------Tentando obter gdc e usar a formar a+b=c-----------------------
+ 
+ https://en.wikipedia.org/wiki/Greatest_common_divisor
+ Every common divisor of a and b is a divisor of gcd(a, b).
+gcd(a, b), where a and b are not both zero, may be defined alternatively and equivalently as the smallest positive integer d which can be written in the form d = a⋅p + b⋅q, where p and q are integers. This e
+ 
+ A= 12  B= 42 GCD(12,42) = 6   12*p + 42*q = gcd(a,b)=6
+ 
+ 
+ 
+ 12p+42q = 1 (A e B nao tem primos comuns)
+ 
+ gcd(12p,42q) = 1
+ 
+ 12p e 42q nao tem factor primo comum
+ 
+ 
+ -------------------------------------------------------
+se são divisiveis por 6, também são divisiveis por 4 , também para 2
+se são divisveis por 2, podem nao ser divisiveis por 4,e não divisivies por 6
+    logo 4, 6, senão forem divisiveis por 4, entao 4 é numero primo
+    
+    a / b => a primo -> {1,a=b}
+ 
+ ------dois numeros primos, para obter factor comum faz-se a intersecção dos factoriais primos-> 
+        6     4
+        2*3   2*2   6 intersect 4 = 2, se interect = 0, nao tem factores primos comuns
+ 
+    6=2*3, 6 tem os factores {1,2} e {1,3} 6 = {1,2,3}
+ --------------------
+---multiple---
+A= 2*3*7 And B= 2*5*11, have the same divisor
+
+A=42    gcf = 2
+B=110
+
+divisor  of n =  mK (m integer, also k integeR)
+        n multiple of m
+
+        42  = 2 K (K = 21)    m=2 k=21
+        110 = 2 K (k=  55)    m=2 k=55
+ 
+ 
+ m divisor de (42,110), tem numero comum (m)
+ 
+ Se não houver multiplos,(K não ser inteiro) então 
+    n = primo, m = primo (nao tem factores iguais, k nao inteiro)
+    n = nao primo, m=primo 
+    
+    Para n nao primo e m primo
+    se m compuser n, então o factor primo comum é m , caso contrario nao existe
+    a nao primo nao pode dividr primo (primos nao sao divisiveis)
+ 
+ 
+ n= primo, m=qualquer numero, visto que m nao divide n (é primo
+ n=qualquer numero m=primo
+ 
+ 
+ 
+ 
+ 
+ 
+        2 is a divisor of 42  because 2*21 = 42
+        
+        an integer n is divisible by another integer m if m is a divisor 
+        
+        dividing n by m no remainder
+        
+        2*3*7 need to divide by 2
+        2*5*11 need to divide by 2
+
+        7 is a divisor of 42 because 7 × 6 = 42 . It can also be said that 42 is divisible by 7, 42 is a multiple of 7, 7 divides 42, or 7 is a factor of 42.
+        
+decompondo um numero nao primo, decompoem-se o numero em primo, e depois verifica-se quais são oas factores comuns dos primos que decompoem o numero
+por ex:
+    6  = 2*3, logo factores comuns de 6 = factores de dois {1,2} união com factores de tres {1,3}
+    12 = 2*3*2 => 2^2 {1,2,4} * 2 {2] => factores 
+    15 = 3*5 => {1,3} union {1,5}
+    
+    27 = 1, 3, 9, 27
+    27 = 1,3,3^2,3^3 , factores => usar 3, 
+
+    
+
+
+    
+---Provar se numero pode ser ter varios factores diferente para a equação no enunciado-----------
+
+Por exemplo ) 2*2*3*5*7= 420 é numero aceitavel pela equação
+assim 420^3 pode acontecer , portanto podem existir 2*2*3*5*7            
+
+    -------dividir ambos A e B por primo------------
+    Se ambos (A e B ) forem divididos pelo mesmo primo, então esse primo é comum aos dois
+    
+    --------------------------------------------------
+    M = KN , 
+    
+    ----Equacao a provar----------
+   Full equation ) 2*2*3*5*7 + 1*2*3*3*7 = 2*3*7*11
+   
+   a) 2*2*3*5*7 
+   b) 1*2*3*3*7 
+   c) 2*3*7*11
+    
+    Para A = primo , B=primo e C=primo
+    
+    A= 2*3*5 = 30  (ja esta reduzido a factores primxo)
+    B= 2*7*4 = 56  (nao esta reduzido a primos)
+    C = 7*2*6 = 84 (nao esta reduzido a primos)
+    D = 3*7 = 21
+    divisores primos de B  30 = [2,3,5]}
+    divisores primos de A  56 = [2,7]
+    divisores primos de C =84 = [7,2,3]
+    divisores pirmos de D =21 = [3,7] gcd (84,42) = 42 least common multiple = 84
+    
+    gcd = {30,56,84} = 2 ,pode gcd resultar num nao primo? Pode, mas o minimo divisor é sempre primo
+   
+    
+    ysually denoted by lcm(a, b), is the smallest positive integer that is divisible by both a and b
+    
+    A= 84 , B= 21 
+    84/3     21 / 3
+        ---sucessao, de factores------parentsis  indicam numeros antigos
+                                        1
+                                        2 2*1
+                                        3 3*1
+                                        4 2*2
+                                        5 5*1
+                                        6 2*(3*1)
+                                        7 1*7
+                                        8 2*4 (2*2*2)
+                                        9 3*(3*1) 
+                                        
+    Para haver gdc > 1 , se um elemento for even , entao X tem de ser even
+    
+    
+    even always nonPrime (divisible by 2)
+    
+    1
+    3 primo
+    5 primo
+    7  primo , divisores = {1,7}
+    9  formado por divisores de 3
+    
+    2 primo
+    4 nao primo = divisores ={1,2,4}
+    6 nao primo = divisores = {1,2,3,6}
+    8 nao primo = divisotres = {1,2,4,8}
+    10 nao primo = divisores = {1,2,5,10}
+    
+    pares não podem pertences a impares (visto que impares não são divisiveis por 2) por exemplo 10 , impar {10} impossivel
+    impares podem pertecer a par ex: 10 = {1,2,5,10] 5 é impar
+    
+    procurar numeros, que são par, e contem factores impares
+    
+    a)1,2,4,8,14,16,18,20,22,24,26,28,30,32
+    a)3,5,7,9,11,13,15,17,19
+    numeros par, factor impar , numeros que não estão presentes em a) e b)
+    6,10,12,
+    
+    
+    
+    
+    
+    
+    
+    Outros são primos?
+    
+    
+    [1,16] = {1,2,3,5,6,7,9,10,11,13,16}
+    
+    
+    1        2        4      6     8    10   12   14     16  18 20 22 24 26  28
+                   3      5     7      9   11    13   15   17  19 21 23 25 27  
+    
+    
+    a distancia dum par ao outro é igual a distancia entre impar e impar
+    
+    2,4,6,8 = 2k
+    3,5,7,9,11 = 2k+1
+    
+    
+    even are always non prime (visto que sao divisiveis por 2)
+    
+    
+    
+    
+    impares não usam os numeros anterioes (por exemplo 3 -> 3*1 e 4 => 2*2 (usa o numero 2 anterior))
+    
+   a) 2 => 2*1                divisores = {2}
+   b) 4 => 2 * 2 => a) * a)   divisores = {1,2,4}
+   c) 6 => 3 * 2 => a) * X ?
+   d) 8 => 4 * 2 => divisores = {1,2,4,8}
+   e) 9 => 3*3 
+   e) 10 => 5*2 => a) * 5
+   f) 11 = 
+   
+   PAra 6,10,12 tem factor impar e são pares
+   
+    Para cada par (para 6 nao) , aumenta o k semiprime em 1 unidade (factor 2)
+    
+    
+                    divisivores de 2 {2,}
+                    divisisores de 3 {3}
+                    divisisores de 4 {2*2} 
+                    divisorse de 5 = {1*5}
+                    divisiores de 6 = {1,2,3]
+                    
+                    divisores de 4 = {1,2,4} = {1,divisores de 2,4}
+                    divisores de 6  ={1, divisores de 2, divisisores de 3}
+                    
+                    divisores de 8 = {1,divisoresde 2,divisisores de 4}
+                    Numeros Pares, são decompostos em 
+                -----------------------------
+                -------
+    
+------So se pode dividir um numero nao primo-----------
+
+
+ ipohantive equation
+ A Diophantine equation is an equation in which only integer solutions are allowed. 
+
+
+If A^x + B^y = C^z , where A, B, C, x, y and z are positive integers and x, y and z are all greater than 2, then A, B and C must have a common prime factor.
+
+By the fundamental theorem of arithmetic, except for the order in which the prime factors are written, every whole number larger than 1 can be uniquely expressed as the product of its prime factors; for example, 60 can be written as the product 2·2·3·5.
+
+
+    a = de b = df , c = dg , 
+    
+    de + df = dg
+    
+    
+
+    de = A^2  ("de" nao pode ser primo, visto que A é primo ou é  composto por primos, e multipliação
+    de primos, nao pode ser primo (porque é divisivel pelo menos por um primo ,, que nao pode ser dividido mais)
+    
+    por exemplo 3*5 = 15, é divisivel por 3 ou 5 (nao pode ser dividido mais)
+    
+    
+    de => nao pode ser primo, logo tem factores primos
+    
+    
+    
+     
+k almost prime k counts the number of prime factors
+
+Numbers that are the product of exactly three (not necessarily distinct) primes. 
+
+
+
+1 	2, 3, 5, 7, 11, 13, 17, 19, … 	A000040
+2 	4, 6, 9, 10, 14, 15, 21, 22, … 	A001358
+3 	8, 12, 18, 20, 27, 28, 30, … 	A014612
+4 	16, 24, 36, 40, 54, 56, 60, … 	A014613
+5 	32, 48, 72, 80, 108, 112, … 	A014614
+6 	64, 96, 144, 160, 216, 224, … 	A046306
+7 	128, 192, 288, 320, 432, 448, … 	A046308
+8 	256, 384, 576, 640, 864, 896
+     
+     A = inteiro positivo => 27
+     A = Primos que factorizam o numero = 3*3*3 => A nao pode ser primo (visto que todos os numeros são factorizados
+        por primos, e multiplicar primos por primos resulta num numero nao primo
+        
+        2*2*3*5
+        
+        multiplciat primo por primo obtem-se um composite (nao primo)
+        ha uma passagem de k-almostprime (no caso do 27 é almsot prime 3) , para duplicou o numero de primos (no caso do 27 passou de k-almost prime de = 3 para k-almost prime de = 6
+        
+        A no enunciado pode ser primo ou nao primo (inteiro positivo)
+        
+        
+        dado que A é primo... então A*A*A => inteiro (composite)
+        dado que A não é primo .... A*A => se factorizarmos A  em primos -> (p1*p2*p3) * (p1*p2*p3) 
+        
+        se A primo -> A*A*A se B primo = B*B*B ,
+        apenas divisivel por {1,A}     apenas  divisisivel por {1,B} 
+        
+        Se forem iguais, A=B, então são divididos pelo mesmo numero. (factor comum , encontrado....)
+      
+        
+        
+        
+     
+                
+        
+        Se A primo e B nao primo
+        
+        
+        A apenas diviisvel por {1,A}
+        B divisivel por {1,Lista,B}
+        
+        B não é primo , logo tem pelo menos um composite 
+        
+        Se A dividir B , então tem factor comum. B não divide A (visto que A é primo)
+        Se lista estiver A, então tem factor comum
+        
+        
+        {1,3}   A = 3
+        {1,2,3,6}  B= 6
+        
+        
+        B/ A = apenas afecta composite, visto que restnates valores de B são primos, logo não são divisiveis por nenhum,excepto ele mesmo
+        
+        3* 2*6 / 2 => 6
+        
+        divisores de B )  3,2,6 ou 3*2 ,6*3,2*6, , ou seja 3,2,6
+        se cada numero de B, for primo, apenas é divisivel por ele mesmo,neste caso em que B repetem
+        
+        não_primo1  *  nâo_primo1 * não _primo1
+        
+        e divisivel por não_primo1
+        e visto que B não é primo
+        
+        
+        primo1*prime2   * prime1*prime2 * prime1*prime2
+        
+        
+        
+        
+        visto que B é composto por primos, só é divisivel por esses mesmo
+        por exemplo
+        2*3*7 -> divisivel por 2, 3 e 7 .... e 2*3 , 3*7,2*7 (apenas interessado na divisao por primos)
+        
+        
+        A = 11
+        B = 4  = 2*2
+        
+        
+        
+        
+        A é divisivel por ? primeA, primeA*primeA , prmieA*primeA*PrimeA , 
+        
+                             prime , composite,composite,  (ignorar composite,por causa do enunciado,obter factor commum primo)
+                            
+                            unico factor de A primo é 2
+                            
+            Todos Os factores de A = 2 ou A=3 ou A=5....
+                           
+        
+            visto que B nao é primo, tem pelo menos dois factores primos (neste caso k-almostprimes)
+            
+            Todos os factores de B =   prime1 * prime2 * prime3
+            
+            B*B*B = (prime1*prime2*prime3) * (prime1*prime2*prime3) * (prime1*prime2*prime3
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        b só pode ser divisivel por prime1,prime2 ou prime3
+        ou ser divisivel por prime1*prime2 ou prime2*prime3 ou prime1*prime3
+        
+        A = 2*2*2
+        
+        
+        
+        
+        A e B primos -> (A=2,B=3) 2*2   3*3 não tem factores comuns outro exemplo (A=2,C=11) => 2*2  11*11 não tem factores comuns
+        
+        
+        
+        
+        
+        Se A nao primo -> A*A*A => T
+        
+        *T*T
+        
+        
+        Se forem diferentes, e ambos primos, (então nao existe factor comum)
+        
+        
+        
+        mas A * A * A tem de ser nao primo
+        
+        
+        27 = 3*3*3    
+        27 = 9*3
+        
+        27 * 27 (27^2)
+        
+        3*3*3     3*3*3 = 729
+        
+        30 = {1, 2, 3, 5, 6, 10, 15, 30]} primos = 2,3,5 todos os primos dividem 30...quanto a factorizacao?
+        2*3*5 = 30 , 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     27 = {1, 3, 9, 27} = A
+     A^3 => A * A *A
+     A^3 =>  
+     
+     
+     
+     
+    k-prime 3 => 2*2*2 , 
+    
+    todos os k-primes , para k > 1,  tem de ser 1prime (por exemplo 2*2 = 4, 2 é prime,4 é k2prime)
+    primes represent all other k-primes
+    
+    
+    
+     
+     se o numero é par, 
+     
+     
+     
+A => nao pode ser primo
+B => nao pode ser primo
+C => nao pode ser primo
+     
+    
+    
+gcd = (18,45mod18) = (18,12)
+      (12, 18 mod 12) = (12,6)
+      (6,12 mod 6) =(6,0)
+      
+      os divisores tem de ser numeros primos
+      
+
+
+all possible solutions
+A / 2 = 3*5*2*3*5
+B / 2 = nao inteiro
+B / 2 = 3*11
+
+impares => não divisivel por 2, nao divisivel por 4, nao divisivel por 8
+pares => divisiveis por 2,4,8,10
+
+   se A , B e C divisivel por 2, entao common prime factor
+   se A , B e C divisivel por 3, entao common prime factor
+
+divisores = {1,2,3,5,7,11...}
+
+Não prime + Não prime = Não prime
+
+tem divisores prime (visto que nao prime = mulitpliação de primes)
+
+
+
+B tem de ser inteiro
+
+
+7*11*13 / 2 = B
+3*5/2 = B
+
+divisores de 3 * 5 , iguais a 3 e 5, visto serem primos
+
+divisores de B = primos que o compoem = {2,3,5}
+divisores de A = primos = {7,11}
+
+resposta, se houver um divisor igual de b,a e c então verdade
+
+2*3*5 + 7*11 = 107
+6 + 7*5 = 41
+6+3*3 = 15
+
+se 6 , 3*3 e 15 são divisiveis por 3 , logo tem factor comum 3
+
+6 divisivel = {1,2,3}
+
+a multiplicação de primos, nunca dá um primo
+
+
+A => nao pode ser primo
+B => nao pode ser primo
+C => nao pode ser primo
+
+A,B,C common prime factor
+
+A+B => 4+6 => 10
+A+b => 8+12 => 20
+A+b => 9+10 => 19 Se C, primo
+        
+        se A + B = nao pode ser primo , visto que C nao pode ser primo (a soma nao pode ser primo,usando o enunciado)
+        
+        NonPrime(A) + NonPrime(B) = NonPrime(C)
+        
+        4 = {1,2,4}
+        6 ={1,2,3}
+        8 = {1,2,4,8}
+        12 = {1,2,3,4,6,12}
+        
+      
+        
+        
+        
+        
+        obrigatorio => A+B = C
+        
+        
+        A,B,C tem pelo menos um divisor cada um (visto nao serem primos)
+        provar que é igual?
+        
+        4+2 = 6 = {1,2}
+        4+4 = 8 {1,2,4}
+        4+8 = 12
+        4+10 = 14
+        
+        4 +  8  = 12  divisores comuns = {1,2,4}
+        6 +  2 = 8  divisores comuns = {2}
+        
+        
+        
+        exitems pelo menos 3 divisores iguais ou diferentes (divisores de A,B,C)
+        
+        
+        
+        
+        
+Visto nao serem primos, tem de ter pelo menos um divisor. primo ou nao?
+    se divisor primo => 
+
+A é divisivel pelo menos por {1 ,A, X ) 
+B é divisivel pelo menos por {1,B,X}
+
+X= numero primo?
+
+Para 12 = {1,2,3,4,6,12} nao ..por isso X pode nao ser primo
+
+
+B = 11 = {1,B} nao pode ser primo
+
+B = 4   {1,2,2*2}
+B = 6 = {1,2,3,2*3}
+B = 8 = {1,2,2*2,2*2*2}
+B = 9 = {1,3,9} =1
+
+B = 12 = {1,2,3,2*2,2*3,2*2*3} 
+B = 12 = {1,2,3,{4},{6},}
+             
+             
+             todos os divisores são primos, ou divisores iguais a  multiplicação de primos
+             
+             A= {1,2,4} B = {1,2,2*2}
+             
+             
+             
+
+B = 15 = {1,3,5,3*5} 
+B = 24 = {1, 2, 3, 4, 6, 8, 12, 24} 6 pode ser decomposto = por primos , 8 tb , 12 tb 24 tb
+                  
+
+
+
+
+
+
+
+possible factors (A)
+2*2*2*2*3*5*5*
+
+possible factors(B)
+2*2*5*7*7
+
+possible factors(c)
+3*3*3*2*2*7*11
+
+tem de ser comum 2 ou 3 ou 5 ou 7
+
+a^x + b^y = c^z
+
+a^x + b^y quais os factores comuns?
+
+se a^x + b^y tiverem factores comuns, c tambem tem e, se C tiver ambos a e b tem
+
+factores comuns
+2
+
+m*k= n , n multiple of m
+
+m factor de  n m= divisor
+
+7*6 = 42, 42 divisble by 7, 42 mulitple of 7 , 7 divides 42 or 7 factor of 42
+
+
+
+try odd and even
+
+a)2*2*7*5 = A 
+b)3*13*3 = B 2310  
+c)5*11*17*5 = C 30300
+
+
+se tem comum a) e b) 2*2*7*5 / 2  3*13*3 / 2 
+
+greated common divisor
+d > greastes divisor of both numbers
+
+a=de b=df
+
+se sao primos não tem divisor comum
+{1,2,4]
+{1,5} divisor = 5 (unico)
+{1,7} divisor = 7 (unico)
+
+Multiply those factors both numbers have in common. If there are no common prime factors, the GCF is 1.
+
+if there are no common prime factor the gcf = 1
+if there are no common prime, 
+
+if i multiply two prime numbers, the result will be composite numbers? yes
+
+because composite numbers, are facorized as prime numbers
+
+6 = 2*3
+7 primo
+8 = 2*4
+9 = 3*3
+
+A,B e C são composite visto que são factorizados por 
+numeros primos
+
+A= 2*2*2
+B =3*13*11
+C = 5*7
+
+
+
+
+
+
+
+Prime factoes 18 = 2*3*3
+PRime factors 24 = 2*2*2*3
+GCF = 2*3 = 6
+35 = 5*7
+
+20 = 5*4 (nao é possivel na equação porque 4 não é primo)
+
+even + even = even
+odd + even = even
+odd + even = odd
+
+
+  or smallest common multiple of two integers a and b, usually denoted by lcm(a, b), is the smallest positive integer that is divisible by both
+
+gdc
+divisores = 
+Por exemplo: os divisores comuns de 12 e 18 são 1,2,3 e 6. Dentre eles, 6 é o maior. Então chamamos o 6 de máximo divisor comum de 12 e 18 e indicamos m.d.c.(12,18) = 6.
+
+
+information about mdc taken from 
+https://www.somatematica.com.br/fundam/mdc.php
+
+
+
+
+
+
+if i divide a factorization
+
+
+
+
+quais o factores que pode ser comuns ? tem de ser primos
+divisel por 2,divisivel por 4, divisivel por 6
+
+
+6/4 => 2*3  2*2
+
+factores incomuns
+
+
+
+A = C-B
+A +B -C = 0
+B = C - A 
+A-C = -B
+
+C           B
+2*2*4 - 2*2*5*7 = 
+
+positiveA -  positiveB = negative if posB > posA
+                         0 if posA = pos B  (nao funciona por causa do pedido)
+                         positive if posA > posB
+
+
+o que acontece se subtrairmos
+2*2*2*3*7*7* - 2*2*2*3*5*7 = 
+
+
+dividir um pelo outro
+
+---------------- se eliminarmos um digito por outro tem factor comum----------
+        2*3*5
+        -----  => tem factor comum2 
+          2
+------------------------------------------------------------------------
+eliminar 3
+2*2*3         dividir numerdor / 3, dividir denominador / 3     4/7
+----      
+7*3
+
+
+
+------Se ha factores nao primos comuns, então ha factores primos comuns-----------
+
+----- Se for factor comum nao primo, então tambem tem factor comum primo que é constituido por factores do nao primo--------------------
+
+
+------denominador < numerador-----------------------------------
+
+----Para divisão inteira-------------
+
+numerador = nao pode ser primo (ou denominador = numerador, supondo que numerodor apenas é divisivel por ele mesmo)
+
+
+se denominador primo -> numerador tem de ter (nao ser) primo (divisão inteira)
+                                
+denomiandor nao primo -> numerador tem de ser nao primo
+
+
+                                
+                                prime2 * prime3 *prime5 
+                                ---------------------
+                                prime2 * prime3 * prime7
+
+ Factores comuns, são os que se eliminam na divisao
+
+ obter smallest positive integer, que divida os dois
+ 
+ d2(a,b) =  a / k b / k
+ 
+ k = primo ? a tem de ter k 
+ 
+ a=  2*3 / k = 2      b = 2*5 / k = 2
+ 
+ n = m * k=2
+ 
+ 2*3 / k =>> n= m* k ak = bk
+ 
+ para terem o mesmo 
+ 
+ tem de ser factor primo
+ 
+(10,20)
+
+n=10 , m =   k =int
+10 = nK
+20 = 
+2k , 2k 
+ 
+ 
+-------LCM-------------
+ lcm(a, b), (n)  is the smallest positive integer that is divisible by both a and b.
+
+aInteger = n
+bInteger = n
+n / a   n/b
+
+a=3, b=5
+
+n/odd  n/even
+
+
+n=4 , n/3 , n/5

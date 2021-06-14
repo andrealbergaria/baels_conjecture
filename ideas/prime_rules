@@ -1,0 +1,48 @@
+    Primo1 , NaoPrimo1 = gcd(Primo1,NaoPrimo1) pode existir..
+    
+    NaoPrimoA,PrimoB =  não existe
+    
+    gcd(NP,P) = gcd(P,NP) pela propriedade , mas primos não são divisiveis
+    
+    Se gcd mantem , entao gcd(a.b) != gcd(b,a)
+    
+    a )Se Primo operation NaoPrimo
+    b) Se NaoPrimo operation Primo
+        
+        Para divisão isto é impossivel (dividir primo por nao primo)
+        Assim:
+            A -> B
+            B -> A não pode ser possivel...
+        
+    A*NaoPrimo => A2*Primo * A3Primo  
+    A*NaoPrimo => A2*Primo * A3Primo * A4NaoPrimo
+    
+    A*
+    
+A4NaoPrimo = A2*A3 , 
+ou
+A4NaoPrimo = A2  
+ou
+A4NaoPrimo = A3
+ou 
+A4NaoPrimo = 
+  
+  
+    Um nao primo, pode ser composto por nao primos   e primos. E se os primos dividirem nao primos?
+    
+    NaoPrimo = APrimo * BPrimo * NãoPrimosC
+   
+    Se NaoPrimos igual a NaoPrimo , 
+    
+    
+    A primo => B nao primo
+    A nao primo => B primo
+    
+    Se 6 compor 3  => gcd=3   = 3 /6
+    Se 3 compor 6  => gcd=3  => 6/3 
+    
+    gcd(6,3)  = gcd(3,6)
+    não é simetrico
+    se a divide b, entao b tem um primo com valor a, logo tem factore comuns
+    se b divide a então existe um primo comum igual a b
+    
