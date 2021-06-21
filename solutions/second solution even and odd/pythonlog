@@ -1,0 +1,208 @@
+/home/andre/workspace_python/baels/venv/bin/python /home/andre/workspace_python/baels/go.py
+Yes
+Even 30
+Odd 3
+odd2 27
+prime factors even [2, 3, 5]
+prime factos odd [3]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 36
+Odd 9
+odd2 27
+prime factors even [2, 2, 3, 3]
+prime factos odd [3, 3]
+prime factors odd [3, 3, 3]
+common factors = [3, 9] , [3, 9] , [3, 9]
+Even 42
+Odd 15
+odd2 27
+prime factors even [2, 3, 7]
+prime factos odd [3, 5]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 48
+Odd 21
+odd2 27
+prime factors even [2, 2, 2, 2, 3]
+prime factos odd [3, 7]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 54
+Odd 27
+odd2 27
+prime factors even [2, 3, 3, 3]
+prime factos odd [3, 3, 3]
+prime factors odd [3, 3, 3]
+common factors = [3, 9, 27] , [3, 9, 27] , [3, 9, 27]
+Even 60
+Odd 33
+odd2 27
+prime factors even [2, 2, 3, 5]
+prime factos odd [3, 11]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 66
+Odd 39
+odd2 27
+prime factors even [2, 3, 11]
+prime factos odd [3, 13]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 72
+Odd 45
+odd2 27
+prime factors even [2, 2, 2, 3, 3]
+prime factos odd [3, 3, 5]
+prime factors odd [3, 3, 3]
+common factors = [3, 9] , [3, 9] , [3, 9]
+Even 78
+Odd 51
+odd2 27
+prime factors even [2, 3, 13]
+prime factos odd [3, 17]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 84
+Odd 57
+odd2 27
+prime factors even [2, 2, 3, 7]
+prime factos odd [3, 19]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 90
+Odd 63
+odd2 27
+prime factors even [2, 3, 3, 5]
+prime factos odd [3, 3, 7]
+prime factors odd [3, 3, 3]
+common factors = [3, 9] , [3, 9] , [3, 9]
+Even 96
+Odd 69
+odd2 27
+prime factors even [2, 2, 2, 2, 2, 3]
+prime factos odd [3, 23]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 102
+Odd 75
+odd2 27
+prime factors even [2, 3, 17]
+prime factos odd [3, 5, 5]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 108
+Odd 81
+odd2 27
+prime factors even [2, 2, 3, 3, 3]
+prime factos odd [3, 3, 3, 3]
+prime factors odd [3, 3, 3]
+common factors = [3, 9, 27] , [3, 9, 27] , [3, 9, 27]
+Even 114
+Odd 87
+odd2 27
+prime factors even [2, 3, 19]
+prime factos odd [3, 29]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 120
+Odd 93
+odd2 27
+prime factors even [2, 2, 2, 3, 5]
+prime factos odd [3, 31]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 126
+Odd 99
+odd2 27
+prime factors even [2, 3, 3, 7]
+prime factos odd [3, 3, 11]
+prime factors odd [3, 3, 3]
+common factors = [3, 9] , [3, 9] , [3, 9]
+Even 132
+Odd 105
+odd2 27
+prime factors even [2, 2, 3, 11]
+prime factos odd [3, 5, 7]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 138
+Odd 111
+odd2 27
+prime factors even [2, 3, 23]
+prime factos odd [3, 37]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 144
+Odd 117
+odd2 27
+prime factors even [2, 2, 2, 2, 3, 3]
+prime factos odd [3, 3, 13]
+prime factors odd [3, 3, 3]
+common factors = [3, 9] , [3, 9] , [3, 9]
+Even 150
+Odd 123
+odd2 27
+prime factors even [2, 3, 5, 5]
+prime factos odd [3, 41]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 156
+Odd 129
+odd2 27
+prime factors even [2, 2, 3, 13]
+prime factos odd [3, 43]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 162
+Odd 135
+odd2 27
+prime factors even [2, 3, 3, 3, 3]
+prime factos odd [3, 3, 3, 5]
+prime factors odd [3, 3, 3]
+common factors = [3, 9, 27] , [3, 9, 27] , [3, 9, 27]
+Even 168
+Odd 141
+odd2 27
+prime factors even [2, 2, 2, 3, 7]
+prime factos odd [3, 47]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 174
+Odd 147
+odd2 27
+prime factors even [2, 3, 29]
+prime factos odd [3, 7, 7]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 180
+Odd 153
+odd2 27
+prime factors even [2, 2, 3, 3, 5]
+prime factos odd [3, 3, 17]
+prime factors odd [3, 3, 3]
+common factors = [3, 9] , [3, 9] , [3, 9]
+Even 186
+Odd 159
+odd2 27
+prime factors even [2, 3, 31]
+prime factos odd [3, 53]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Even 192
+Odd 165
+odd2 27
+prime factors even [2, 2, 2, 2, 2, 2, 3]
+prime factos odd [3, 5, 11]
+prime factors odd [3, 3, 3]
+common factors = [3] , [3] , [3]
+Traceback (most recent call last):
+  File "/home/andre/workspace_python/baels/go.py", line 65, in <module>
+    obterParesFactoresComuns()
+  File "/home/andre/workspace_python/baels/go.py", line 47, in obterParesFactoresComuns
+    c1 = cf(even,odd2)
+  File "/home/andre/workspace_python/baels/factors.py", line 54, in cf
+    if num1 % i == num2 % i == 0:
+KeyboardInterrupt
+
+Process finished with exit code 1
